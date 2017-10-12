@@ -1,0 +1,73 @@
+/************************************/
+/*	BASE STYLES 
+/************************************/
+body{
+	padding:0;	
+	margin:0;	
+	width:100%;	
+	height:100%;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	line-height:1.4;
+	font-family:'League', Arial, sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; }
+*{
+	outline:none;
+	border:none;
+}
+a img{
+	border:none;
+}
+.spacer{
+	clear:both;	
+	width:100%;	
+	height:0;
+}
+.body-wrapper {
+	width:100%;		
+	margin:0 auto;	
+	padding:0;
+}
+.controller {
+	width:940px; 
+	height:auto; 
+	margin:0 auto;	
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	color:#374852;
+	margin:0 0 15px 0;
+}
+p{
+	font-size:14px;
+	color:#000F17;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:0;
+	margin-bottom:15px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a{
+	color:#993333;
+}
+a:hover{
+	text-decoration:none;
+}
+
+h1 { font-size: 101px; }
+h2 { font-size: 58px; }
+h3 { font-size: 30px; }
+h4 { font-size: 24px; }
+h5 { font-size: 18px; }
+h6 { font-size: 14px; }
+
+footer#footer h1,
+footer#footer h2,
+footer#footer h3,
+footer#footer h4,
+footer#footer h5,
+footer#footer h6 {color:#FFF;}
+/*footer#footer p{color:#fff;}*/
+footer#footer a{color:#16beef;}

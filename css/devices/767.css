@@ -1,0 +1,75 @@
+/*------------------------------------------------------------------*/ 
+/*	2) Note: Design for a width of 480 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/*------------------------------------------------------------------*/ 
+/*	1) Header
+/*------------------------------------------------------------------*/
+.header-title span{
+	font-size:40px;
+}
+.header-title a.enter{
+	margin:15px auto;
+	width:150px;
+	font-size:15px;
+}
+.logo{
+	text-align:center;
+	margin:0 0 10px 0;	
+}
+#sa span{
+	display:none;
+}
+.bg-mask h2{
+	margin:180px 0;
+	font-size:30px;
+}
+.bg-mask h2 span{
+	padding:10px 20px;
+}
+.title-white h1{
+	font-size:80px;
+}
+/*------------------------------------------------------------------*/ 
+/*	2) Nav
+/*------------------------------------------------------------------*/
+#nav ul.menu{
+	margin:13px 0 0 0;
+}
+#nav ul.menu li{
+	margin:0 10px 0 0;
+	font-size:12px;
+}
+#nav ul.social{
+	display:none;
+}
+#nav select.menu{
+	display:block;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Work
+/*------------------------------------------------------------------*/
+.view-item{
+	width:400px;
+	height:250px;
+}
+.view-item a.info {
+   margin:120px 0 0 190px;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Contact
+/*------------------------------------------------------------------*/
+.map{
+	width:400px;
+	margin-left:0;
+}
+.input-section input, .input-section textarea{
+	width:398px;
+}
+.input-section a.send{
+	width:400px;
+}
+}
