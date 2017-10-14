@@ -103,9 +103,9 @@ $(function($){
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider/1.jpg'},
-											{image : 'img/slider/6.jpg'},
-											{image : 'img/slider/7.jpg'},
-											{image : 'img/slider/3.jpg'}
+											{image : 'img/slider/2.jpg'},
+											{image : 'img/slider/3.jpg'},
+											{image : 'img/slider/4.jpg'}
 									]
 		
 	});

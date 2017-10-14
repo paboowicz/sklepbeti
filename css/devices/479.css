@@ -6,11 +6,13 @@
 /*------------------------------------------------------------------*/ 
 /*	1) Header
 /*------------------------------------------------------------------*/
+
+	
 .header-title span{
 	font-size:25px;
 }
 .header-title a.enter{
-	margin:15px auto;
+	margin:1px auto;
 	width:150px;
 	font-size:15px;
 }
@@ -18,9 +20,7 @@
 	text-align:center;
 	margin:0 0 10px 0;	
 }
-#sa span{
-	display:none;
-}
+
 .bg-mask h2{
 	margin:180px 0;
 	font-size:22px;
