@@ -124,10 +124,10 @@ function submitForm(){
 
 // -----------------------------------------------------  GOOGLE MAP		
 jQuery(document).ready(function(){ 
-	var myLatlng = new google.maps.LatLng(-34.397, 150.644);
+	var myLatlng = new google.maps.LatLng(50.157835, 23.125456);
 	var myOptions = {
 	  center: myLatlng,
-	  zoom: 8,
+	  zoom: 16,
 	  mapTypeId: google.maps.MapTypeId.ROADMAP
 	};
 	var map = new google.maps.Map(document.getElementById("map"),  myOptions);
