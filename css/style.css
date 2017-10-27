@@ -27,6 +27,8 @@
 .body-wrapper{
 	background:#23272a;
 }
+
+
 #about, #works, #contact, #services, #team{
 	background:#FFF url(../img/pattern2.png) repeat;
 	padding-bottom:50px;
@@ -380,9 +382,13 @@ ul.worker-social a{
 	height:60px;
 	background:#374852;
 	text-align:center;
-	padding:50px 0;
+	padding:20px 0px 80px 0px;
 	margin-bottom:20px;
+	
 }
+
+
+
 /*------------------------------------------------------------------*/ 
 /*	6) WORKS
 /*------------------------------------------------------------------*/
