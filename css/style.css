@@ -36,6 +36,10 @@
 #footer{
 	background:#000f17 url(../img/pattern.png) repeat;
 }
+#services p{
+	text-align: justify;
+    text-justify: inter-word;
+}
 #loading-mask {
     background-color: #000;
     height: 100%;
