@@ -66,4 +66,22 @@
 .input-section a.send{
 	width:280px;
 }
-}
+
+/*------------------------------------------------------------------*/ 
+/*	4) Parallax
+/*------------------------------------------------------------------*/
+
+#parallax1 .bg1 {
+	
+	background-image:url(../img/parallax/2000.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+	background-position: right 50px;
+	
+		}
+
+
+#parallax3 .bg3 {
+	background: url(../img/parallax/1-479.jpg) 50% 0 repeat fixed;
+		}
+
