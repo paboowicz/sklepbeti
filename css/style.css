@@ -41,6 +41,10 @@
 	text-align: justify;
     text-justify: inter-word;
 }
+#about p{
+	text-align: justify;
+    /*text-justify: inter-word;*/
+}
 #loading-mask {
     background-color: #000;
     height: 100%;

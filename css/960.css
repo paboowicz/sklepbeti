@@ -37,7 +37,7 @@
 	.column-one-third       { width:300px; }
 	.column-one-fourth      { width:220px; }
 	.column-two-thirds      { width:620px; }
-	.column-three-fourths   { width:700px; }
+	.column-three-fourths   { width:680px; padding-right:20px;}
  
 /* ------------------------------------------- */
 /*  Responsive Grid :
