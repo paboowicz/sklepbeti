@@ -116,11 +116,12 @@ $(function($){
 function submitForm(){
 	$.post('plugin/sendmail.php',$('#contactForm').serialize(), function(msg) {
 		$(".alertMessage").html(msg);
+        // Hide previous response text
+        $(msg).remove();
+        // Show response message
+        contactform.prepend(msg);
 	});
-	// Hide previous response text
-	$(msg).remove();
-	// Show response message
-	contactform.prepend(msg);
+
 }	
 
 // -----------------------------------------------------  GOOGLE MAP		
