@@ -66,7 +66,7 @@ $(document).ready(function() { //when the document is ready...
 			//call the newPos function and change the background position
 			$firstBG.css({'backgroundPosition': newPos(0, windowHeight, pos, 1500, 0)}); 
 			//call the newPos function and change the second background position
-			bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, 2950, 0.2)});
+			bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, 950, 0.2)});
 		}
 		
 		//if the second section is in view...
@@ -74,7 +74,7 @@ $(document).ready(function() { //when the document is ready...
 			//call the newPos function and change the background position
 			$secondBG.css({'backgroundPosition': newPos(0, windowHeight, pos, 1400, 0)});
 			//$secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 1550, 0.3)});
-			bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, 4410, 0.2)});
+			bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, 3410, 0.2)});
 			//call the newPos function and change the second background position
 		}
 		
@@ -82,7 +82,7 @@ $(document).ready(function() { //when the document is ready...
 			//call the newPos function and change the background position
 			$thirdBG.css({'backgroundPosition': newPos(0, windowHeight, pos, 2000, 0)});
 			//$secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 1550, 0.3)});
-			bg3.css({'backgroundPosition': newPos(50, windowHeight, pos, 4010, 0.2)});
+			bg3.css({'backgroundPosition': newPos(50, windowHeight, pos, 3510, 0.2)});
 			//call the newPos function and change the second background position
 		}
 		
