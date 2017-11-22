@@ -15,7 +15,7 @@ Telefon:        {$phone}
 Wiadomość:      {$message}
 EOT;
 
-    mail('marcin@appgo.pl', 'info ze strony internetowej', $mail);
+    mail('paboowicz@gmail.com', 'info ze strony internetowej', $mail);
     $sent = true;
 }else{
     $msg = 'Proszę podać przynajmniej adres email.';
