@@ -114,12 +114,19 @@ $(function($){
 
 // ----------------------------------------------------  CONTACT FORM
 function submitForm(){
-	$.post('plugin/sendmail.php',$('#contactForm').serialize(), function(msg) {
-		$(".alertMessage").html(msg);
-        // Hide previous response text
-        $(msg).remove();
-        // Show response message
-        contactform.prepend(msg);
+    $(".alertMessage").html('');
+	$.post('plugin/mago-sendmail.php',$('#contactForm').serialize(), function(msg) {
+
+		$resp = JSON.parse(msg);
+
+		console.log($resp);
+
+		if($resp.code == 1) {
+            $('#contactForm').trigger('reset');
+		}
+
+		$(".alertMessage").html("<p>" + $resp.msg + "</p>");
+        $(".alertMessage").show();
 	});
 
 }	
